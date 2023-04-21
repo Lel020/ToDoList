@@ -1,0 +1,13 @@
+1. Start out by making an input screen within the centre of the page.
+   It will only be 1 page initially, but keep growing as the user adds more and more items.
+
+2. Output will go on top of the input screen, and will be listing downwards from the top-left.
+   Once the max number of items is reached, the items will be on the following column. I feel like
+   limiting the columns to maybe 3 or 4.
+
+3. Add a button named 'ENTER' to the bottom of the input screen. This will add the item to the
+   output screen.
+
+4. Add a button named 'DELETE' to the bottom of the input screen. This will delete the last item.
+
+5. Add a button named 'CLEAR' to the bottom of the input screen. This will clear the entire list.
