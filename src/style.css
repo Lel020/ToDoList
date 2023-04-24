@@ -1,4 +1,4 @@
- body{
+body{
     background-color: #252A30;
     text-align: center;
     padding: 5%;
@@ -7,7 +7,7 @@
 
 .container{
     background-color: #1B1C20;
-     color: black;
+    color: black;
     display: inline-block;
     align-items: center;
     height: 75vh;
@@ -20,8 +20,8 @@
     display: inline-block;
     align-items: center;
     margin-top: 4%;
-    height: 50vh;
+    height: 52vh;
     width: 80%;
     border-radius: 5px;
 }
-  
+
