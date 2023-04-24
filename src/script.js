@@ -1,6 +1,8 @@
 const addButton = document.getElementById('add');
+const toDoContainer = document.getElementById('todoTextList');
+const inputField = document.getElementById('input');
 
-//When the 'add' button is clicked
-addButton.addEventListener('click', addText => {
-    
+addButton.addEventListener('click', () => {
+    const paragraph = document.createElement('p');
+    toDoContainer.appendChild(paragraph);
 });
