@@ -1,15 +1,27 @@
-    body{
-        background-color: #252A30;
-        text-align: center;
-        padding: 5%;
-    }
+ body{
+    background-color: #252A30;
+    text-align: center;
+    padding: 5%;
+    overflow: hidden;
+}
 
-    .container {
-        background-color: #1B1C20;
-        color: black;
-        display: inline-block;
-        align-items: center;
-        height: 40vh;
-        width: 50%;
-        border-radius: 5px;
-    }
+.container{
+    background-color: #1B1C20;
+     color: black;
+    display: inline-block;
+    align-items: center;
+    height: 75vh;
+    width: 50%;
+    border-radius: 5px;
+}
+  
+.todoContainer{
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+    margin-top: 4%;
+    height: 50vh;
+    width: 80%;
+    border-radius: 5px;
+}
+  
