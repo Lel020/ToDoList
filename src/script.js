@@ -2,11 +2,23 @@ const addButton = document.getElementById('add');
 const clearButton = document.getElementById('clear');
 const toDoTxt = document.getElementById('todoTextList');
 const inputField = document.getElementById('input');
+//max number of items the list can store
+let numOfItems = 0;
+const maxNumOfItems = 10;
 
 addButton.addEventListener('click', () => {
-    const paragraph = document.createElement('p');
-    paragraph.innerText = inputField.value;
-    toDoTxt.appendChild(paragraph);
+    if(inputField.value !== ''){
+        if(numOfItems < maxNumOfItems){
+            const newTodo = document.createElement('li');
+            newTodo.textContent = inputField.value;
+            toDoTxt.appendChild(newTodo);
+            inputField.value = '';
+            numOfItems++;
+        }
+        else{
+            alert("Max number of items to be listed has been reached!");
+        }
+    }
 });
 
 clearButton.addEventListener('click', () => {
