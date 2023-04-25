@@ -25,3 +25,9 @@ body{
     border-radius: 5px;
 }
 
+#todoTextList{
+    padding-left: 3%;
+    font-size: 17px;
+    text-align: left;
+}
+
