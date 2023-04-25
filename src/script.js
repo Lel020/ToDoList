@@ -6,6 +6,13 @@ const inputField = document.getElementById('input');
 let numOfItems = 0;
 const maxNumOfItems = 20;
 
+inputField.addEventListener('keydown', (event) => {
+    if(event.key === 'Enter'){
+        event.preventDefault();
+        addButton.click();
+    }
+});
+
 addButton.addEventListener('click', () => {
     if(inputField.value !== ''){
         if(numOfItems < maxNumOfItems){
