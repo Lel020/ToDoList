@@ -9,6 +9,4 @@ addButton.addEventListener('click', () => {
     toDoTxt.appendChild(paragraph);
 });
 
-clearButton.addEventListener('click', () => {
-    inputField.value = '';
-});
+clearButton.addEventListener('click', () => inputField.value = '');
