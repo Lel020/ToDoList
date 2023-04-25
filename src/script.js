@@ -4,7 +4,7 @@ const toDoTxt = document.getElementById('todoTextList');
 const inputField = document.getElementById('input');
 //max number of items the list can store
 let numOfItems = 0;
-const maxNumOfItems = 10;
+const maxNumOfItems = 20;
 
 addButton.addEventListener('click', () => {
     if(inputField.value !== ''){
