@@ -26,7 +26,8 @@ body{
 }
 
 #todoTextList{
-    padding-left: 3%;
+    padding-top: 3px;
+    padding-left: 6%;
     font-size: 17px;
     text-align: left;
 }
