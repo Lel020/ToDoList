@@ -32,7 +32,7 @@ addButton.addEventListener('click', () => {
 });
 
 //Instead if using the add buton, user can also just press ENTER
-inputField.addEventListener('keydown', (event) => {
+inputField.addEventListener('keydown', event => {
     if(event.key === 'Enter'){
         event.preventDefault();
         addButton.click();
