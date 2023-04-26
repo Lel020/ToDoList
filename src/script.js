@@ -7,6 +7,7 @@ let numOfItems = 0;
 const maxNumOfItems = 20;
 const maxCharacters = 42;
 
+//When user clicks on the 'add' button
 addButton.addEventListener('click', () => {
     const inputValue = inputField.value;
     const maxInputChar = inputValue.length;
@@ -30,6 +31,7 @@ addButton.addEventListener('click', () => {
     }
 });
 
+//Instead if using the add buton, user can also just press ENTER
 inputField.addEventListener('keydown', (event) => {
     if(event.key === 'Enter'){
         event.preventDefault();
@@ -37,6 +39,7 @@ inputField.addEventListener('keydown', (event) => {
     }
 });
 
+//When user presses the 'clear' button
 clearButton.addEventListener('click', () => {
     if(confirm("Are you sure you want to clear your List?")){
         inputField.value = '';
