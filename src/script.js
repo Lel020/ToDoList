@@ -5,7 +5,7 @@ const inputField = document.getElementById('input');
 
 let numOfItems = 0;
 const maxNumOfItems = 20;
-const maxCharacters = 42;
+const maxCharacters = 100;
 
 //When user clicks on the 'add' button
 addButton.addEventListener('click', () => {
