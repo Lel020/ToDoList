@@ -18,6 +18,11 @@ body{
     border-radius: 5px;
 }
 
+.header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -28,16 +33,33 @@ body{
     width: 50%;
     align-items: center;
 }
+
 #input{
     text-align: center;
     width: 100%;
+}
+
+.buttons{
+    margin-top: 2%;
+}
+
+#add:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#clear:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .todoContainer{
     background-color: white;
     display: inline-block;
     align-items: center;
-    margin-top: 2.5%;
+    margin-top: 1.2%;
     height: 52vh;
     width: 50%;
     border-radius: 5px;
