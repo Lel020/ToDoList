@@ -44,6 +44,7 @@ clearButton.addEventListener('click', () => {
     if(confirm("Are you sure you want to clear your List?")){
         inputField.value = '';
         toDoTxt.textContent = '';
+        maxNumOfItems = 0;
     }
     else{
         console.error("An ERROR has occurred");
